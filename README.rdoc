@@ -1,28 +1,7 @@
-== README
+==About Election
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ProjectKick was born out of the desire to understand, visualize and connect with the creative culture of NYC. Kickstarter immediately came to mind as the perfect gateway, but we didn't want to stop at just one city.
 
-Things you may want to cover:
+We collected thousands of current or successful project data points, across hundreds of US cities going as far back as August 2009. We parsed the data to display in three main ways- by city, category, and funding. Our goal is to help understand the creative culture across the country and see which categories the most popular projects fall under and are the most funded.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Election is currently visualizing 16716 projects, 463 cities, and 50 categories.
