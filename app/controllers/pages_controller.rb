@@ -5,6 +5,6 @@ class PagesController < ApplicationController
 	def contact
 	end
 
-	def index
+	def home
 	end
 end
