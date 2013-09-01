@@ -1,17 +1,32 @@
 @import url(http://fonts.googleapis.com/css?family=Armata);
+/* UNIVERSAL COLOURS */
+
+$orange: #E13E06;
+$green: #2ECC71;
+$blue: #4099FF;
+$darkpink: #D9014F;
+$mould: #A9AB19;
+$white: #fff;
+$red: #FF0000;
+$yellow: #FFFF00;
+$pink: #EE3246;
+$lightpink: #E86275;
+$black: #000;
 
 html, body {
   margin: 0;
   padding: 0;
   font-family: 'Armata', sans-serif;
+  background-color: $white;
+  color: $black;
 }
 
 a {
   text-decoration: none;
-  color: #386a6e;
+  color: $blue;
 }
 
-a:hover {color:#000;}
+a:hover {color:$black;}
 
 #container {
   width: 960px;
@@ -121,7 +136,7 @@ button {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    color: #76cc1e;
+    color: $blue;
 }
 
 #count {
@@ -130,4 +145,6 @@ button {
   color: #76cc1e;
 }
 
-#coders a { color: #76cc1e; }
+#coders a { 
+  color: $red;
+}
