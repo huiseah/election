@@ -1,15 +1,12 @@
-<nav>
-  <div class="site">
-    <h3><%= link_to "ElectionMate", root_path %></h3>
-    <h5>Data Visualization for Australian Federal Election 2013</h5>
-  </div>
-  <ul>
-  <div class="creators">
-    <p>Created by <span id="coders"><%= link_to "Ryan Drake", "http://ryandrake.com/", target: "_blank" %></span> & <span id="coders"><%= link_to "Hui Seah", "http://huiseah.com/", target: "_blank" %></span></p>
-  </div>
-<!--     <li><%= link_to "About", about_path %></li>
-    <li><%= link_to "By City", root_path %></li>
-  </ul> -->
-  <div class="clear"></div>
-  <div class="nav-bar"></div>
-</nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>ProjectElect | Data Visualization for Australian Federal Election</title>
+  <%= favicon_link_tag 'favicon.png' %>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
