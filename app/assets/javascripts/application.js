@@ -13,4 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require jquery.mousewheel
+//= require raphael
+//= require sidebarEffects.js
+//= require mapsvg
+//= require election
 //= require_tree .
