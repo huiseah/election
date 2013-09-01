@@ -26,4 +26,10 @@ Election::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  # Twitter.configure do |config|
+  # config.consumer_key = YOUR_CONSUMER_KEY | fMc2vinM12bosAV43lFaww
+  # config.consumer_secret = YOUR_CONSUMER_SECRET | 39L5cRh6kImtAkZx8paW6DdQNa8HlJLK02fHBs6w
+  # config.oauth_token = YOUR_OAUTH_TOKEN | 48602096-lmxlbZlBvrKQKYBh4xHXg5N1uQFLh113VZBswNrtI
+  # config.oauth_token_secret = YOUR_OAUTH_TOKEN_SECRET | E81tF4ELC9593UBofYHnc8je5M1tj4L4Ej43EtIrro
 end

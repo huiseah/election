@@ -10,6 +10,11 @@ gem 'haml'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'geocoder'
 gem 'google_calendar'
+gem 'activerecord-postgres-hstore'
+gem 'twitter'
+gem 'dotenv'
+gem 'rake'
+gem 'mechanize'
 
 
 
@@ -60,6 +65,11 @@ group :development, :test do
 end
 
 group :production do
+  gem 'puma'
+  gem 'memcachier'
+  gem 'rack-cache'
+  gem 'dalli'
+  gem 'kgio'
   gem 'rails_12factor'
 end
 # Use ActiveModel has_secure_password

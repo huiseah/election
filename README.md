@@ -7,3 +7,7 @@ We collected thousands of current or successful project data points, across hund
 Election is currently visualizing 16716 projects, 463 cities, and 50 categories.
 
 ==STEPS
+
+==TO DO 
+1. Sort out graph with Daniel. Map isn't showing up via Javascript.
+2. Twitter OAuth setup
