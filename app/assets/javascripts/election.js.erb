@@ -13,14 +13,14 @@ $(document).ready(function() {
 	            },
 	    disableAll:     true,
 	    regions :    {
-	           'QLD':  {tooltip: '  USA: Click to go to Google.com', attr: {href: 'http://google.com'}},
+	           'QLD':  {tooltip: 'USA: Click to go to Google.com', attr: {href: 'http://google.com'}, selected: true},
 	           'NSW': {tooltip: 'You are above Yemen!'},
 	           'NT': {tooltip: ' France - wine and cheese!'},
 	           'ACT': {tooltip: ' Kazakhstan - the ninth largest country in the world.'},
 	           'TAS': {tooltip: ' Mongolia is a landlocked country in East Asia.'},
 	           'SA': {tooltip: ' China is the world\'s most-populous country.'},
 	           'VIC': {tooltip: ' Norway'},
-	           'WA': {tooltip: ' Brazil is the largest country in South America.'}
+	           'WA': {tooltip: ' Brazil is the largest country in South America.',popover: ' Brazil is the largest country in South America.' }
 	          },
 	  marks:     [
 	            { c: currentLocation,
@@ -28,14 +28,7 @@ $(document).ready(function() {
 	                +geoip_city()+''
 	                +geoip_country_name()+''
 	                +'Coordinates: '+currentLocation
-	            },
-	            { c: [38.893438,-77.03167],
-	             tooltip: 'Sample pin for Washington, DCCoordinates: 38.893438,-77.03167',
-	            },
-	            { c: [51.49763,-0.148315],
-	             tooltip: 'Sample pin for LondonCoordinates: 51.49763,-0.148315',
-	            }
-	                   ],
+	            }],
 	    tooltipsMode:    'custom',
 	    zoom: true,
 	    pan: true,

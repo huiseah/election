@@ -11,9 +11,12 @@ An experimental approach to UX. We wanted to disrupt the hegemonic legacy of bin
 ==STEPS
 
 ==CHALLENGES
+We found it challenging to sort the polling data provided in a CSV file and to get it to seed properly into our database.
+
+Testing the Javascript was also a new challenge for us.
+
 
 
 ==TO DO 
 1. Sort out graph with Daniel. Map isn't showing up via Javascript.
-2. Twitter OAuth setup
 3. Make responsive design via media queries!!

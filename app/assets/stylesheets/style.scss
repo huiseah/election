@@ -148,3 +148,39 @@ button {
 #coders a { 
   color: $red;
 }
+
+.greens, .liberal, .labor {
+  width: 33%;
+  float: left;
+  padding: 0 20px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  h2 {
+    color: #76cc1e;
+    margin: 10px 0 0 0;
+  }
+}
+
+.span {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #F2F2F2;
+  font-size: 0.7em;
+  h3 {
+    margin: 0 0 16px 0;
+  }
+  p {
+    margin: 0;
+    color: #848484;
+    float: left;
+  }
+  p.time {
+    float: right;
+  }
+}
+
+.twitter {
+  height: 100px;
+  width: 50px;
+}
