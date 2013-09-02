@@ -3,6 +3,18 @@
   <hr/>
   <div class="labor">
     <a href="http://www.alp.org.au/"><h3 class="laborcolour">Australian Labor Party</h3></a> 
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <div class="g-ytsubscribe" data-channel="australianlabor" data-layout="full"></div>
+    <a href="https://twitter.com/AustralianLabor" class="twitter-follow-button" data-show-count="false">Follow @AustralianLabor</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <div class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/104962701176071836675" data-rel="publisher"></div>
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
     <% @labor_tweets[0..9].each_with_index do |tweet, i| %>
       <div class="span" id="tweet_<%= i + 1 %>" >
         <h3>"<%= tweet.text %>"</h3>
@@ -14,6 +26,18 @@
 
   <div class="liberal"> 
     <a href="http://www.liberal.org.au/"><h3 class="liberalcolour">Liberal Party of Australia</h3></a>
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <div class="g-ytsubscribe" data-channel="LiberalPartyTV" data-layout="full"></div>
+    <a href="https://twitter.com/LiberalAus" class="twitter-follow-button" data-show-count="false">Follow @LiberalAus</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <div class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/110331357865893850794" data-rel="publisher"></div>
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
     <% @liberal_tweets[0..9].each_with_index do |tweet, i| %>
       <div class="span" id="tweet_<%= i + 1 %>" >
         <h3>"<%= tweet.text %>"</h3>
@@ -24,7 +48,19 @@
   </div>
 
   <div class="greens"> 
-    <a href="http://www.greens.org.au/"><h3 class="greenscolour">The Australian Greens</h3></a>  
+    <a href="http://www.greens.org.au/"><h3 class="greenscolour">The Australian Greens</h3></a>
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <div class="g-ytsubscribe" data-channel="AustralianGreens" data-layout="full"></div>
+    <a href="https://twitter.com/Greens" class="twitter-follow-button" data-show-count="false">Follow @Greens</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <div class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/116572933400799424514" data-rel="publisher"></div>
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
     <% @greens_tweets[0..9].each_with_index do |tweet, i| %>
       <div class="span" id="tweet_<%= i + 1 %>" >
         <h3>"<%= tweet.text %>"</h3>
