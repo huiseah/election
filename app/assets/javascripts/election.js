@@ -2,7 +2,7 @@ $(document).ready(function() {
 	var currentLocation = [geoip_latitude(), geoip_longitude()];
 
 	$('#map').mapSvg({
-	    source: '/assets/world_high.svg',    // Path to SVG map
+	    source: image_path('world_high.svg'),    // Path to SVG map
 	    colors: {
 	                base: "#E1F1F1",
 	                background: "#eeeeee",

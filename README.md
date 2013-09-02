@@ -7,6 +7,9 @@
 
 ==STEPS
 
+==CHALLENGES
+
+
 ==TO DO 
 1. Sort out graph with Daniel. Map isn't showing up via Javascript.
 2. Twitter OAuth setup
