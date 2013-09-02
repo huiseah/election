@@ -4,6 +4,9 @@
 
 	Our goal is to help people understand who the candidates are and what the latest polling data is revealing to the public.
 
+==PRINCIPLES
+An experimental approach to UX. We wanted to disrupt the hegemonic legacy of binding functionality to buttons. It is through indoctrination via habitualisation that buttons for example gain the aura of 'correctness'. We felt an approach of embedded functionality within images, maps and text would be more intuitive. The degrees of success or failure of which we may be judged by will thus depend on how intuitively a user discovers further functionality beyond the text, images and maps.
+
 
 ==STEPS
 
