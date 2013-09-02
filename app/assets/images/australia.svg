@@ -8,8 +8,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="290"
-   height="262"
+   width="1000"
+   height="600"
    viewBox="-0.4 -0.4 290 262"
    id="svg2"
    xml:space="preserve"
@@ -19,7 +19,7 @@
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
          rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
    pagecolor="#ffffff"
-   bordercolor="#666666"
+   bordercolor="#FA1451"
    borderopacity="1"
    objecttolerance="10"
    gridtolerance="10"
