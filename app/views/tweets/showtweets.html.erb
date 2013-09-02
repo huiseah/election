@@ -2,34 +2,34 @@
   <h1>Party News</h1>
   <hr/>
   <div class="labor">
-    <h3 class="laborcolour">Australian Labor Party</h3> 
+    <a href="http://www.alp.org.au/"><h3 class="laborcolour">Australian Labor Party</h3></a> 
     <% @labor_tweets[0..9].each_with_index do |tweet, i| %>
       <div class="span" id="tweet_<%= i + 1 %>" >
         <h3>"<%= tweet.text %>"</h3>
         <p><%= link_to "@" + tweet.user.screen_name, "http://twitter.com/" + tweet.user.screen_name, target: "_blank", class: "laborcolour" %></p>
-        <p class="time"><%= tweet.created_at.strftime("%m/%d/%Y, at %I:%M%p") %></p>
+        <p class="time"><%= time_ago_in_words(tweet.created_at) + " ago" %></p>
       </div>
     <% end %>
   </div>
 
   <div class="liberal"> 
-    <h3 class="liberalcolour">Liberal Party of Australia</h3>  
+    <a href="http://www.liberal.org.au/"><h3 class="liberalcolour">Liberal Party of Australia</h3></a>
     <% @liberal_tweets[0..9].each_with_index do |tweet, i| %>
       <div class="span" id="tweet_<%= i + 1 %>" >
         <h3>"<%= tweet.text %>"</h3>
         <p><%= link_to "@" + tweet.user.screen_name, "http://twitter.com/" + tweet.user.screen_name, target: "_blank", class: "liberalcolour" %></p>
-        <p class="time"><%= tweet.created_at.strftime("%m/%d/%Y, at %I:%M%p") %></p>
+        <p class="time"><%= time_ago_in_words(tweet.created_at) + " ago" %></p>
       </div>
     <% end %>
   </div>
 
   <div class="greens"> 
-    <h3 class="greenscolour">The Australian Greens</h3>  
+    <a href="http://www.greens.org.au/"><h3 class="greenscolour">The Australian Greens</h3></a>  
     <% @greens_tweets[0..9].each_with_index do |tweet, i| %>
       <div class="span" id="tweet_<%= i + 1 %>" >
         <h3>"<%= tweet.text %>"</h3>
         <p><%= link_to "@" + tweet.user.screen_name, "http://twitter.com/" + tweet.user.screen_name, target: "_blank", class: "greenscolour" %></p>
-        <p class="time"><%= tweet.created_at.strftime("%m/%d/%Y, at %I:%M%p") %></p>
+        <p class="time"><%= time_ago_in_words(tweet.created_at) + " ago" %></p>
       </div>
     <% end %>
   </div>
