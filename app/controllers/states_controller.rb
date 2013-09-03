@@ -1,8 +1,10 @@
 class StatesController < ApplicationController
-	def qld
+	def qld 
+		@electorates = Electorate.where(:state_id => 20)
 	end
 
 	def nsw
+		
 	end
 
 	def wa
