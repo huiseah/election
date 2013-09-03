@@ -5,7 +5,6 @@ class AddElectoratesTable < ActiveRecord::Migration
       t.integer :size
       t.text :history
       t.string :sitting_mp
-      t.integer :polls
       t.integer :tertiary_education
       t.integer :median_income
       t.integer :candidate_id

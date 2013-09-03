@@ -20,7 +20,7 @@ development:
   database: election_development
   pool: 5
   host: localhost
-  username: Ryan
+  username: hui
   password: password
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -50,7 +50,7 @@ test:
   database: election_test
   pool: 5
   host: localhost
-  username: Ryan
+  username: hui
   password: password
 
 production:

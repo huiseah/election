@@ -2,8 +2,9 @@ class AddPartiesTable < ActiveRecord::Migration
   def change
     create_table :parties do |t|
       t.string :name
+      t.string :candidate
+      t.float :polls
       t.text :bio
-      t.integer :polls
       t.boolean :winner, :default => false
       t.text :links
       t.timestamps

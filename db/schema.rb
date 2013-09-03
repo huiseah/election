@@ -11,40 +11,36 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130827011224) do
-
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
-  create_table "candidates", force: true do |t|
-    t.string   "name"
-    t.integer  "party_id"
-    t.boolean  "winner",     default: false
-    t.text     "bio"
-    t.text     "links"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+ActiveRecord::Schema.define(version: 20130903061212) do
 
   create_table "electorates", force: true do |t|
     t.string   "name"
     t.integer  "size"
     t.text     "history"
     t.string   "sitting_mp"
-    t.integer  "polls"
     t.integer  "tertiary_education"
     t.integer  "median_income"
     t.integer  "candidate_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "state_id"
   end
 
   create_table "parties", force: true do |t|
     t.string   "name"
+    t.string   "candidate"
+    t.float    "polls"
     t.text     "bio"
-    t.integer  "polls"
-    t.boolean  "winner",     default: false
+    t.boolean  "winner",        default: false
     t.text     "links"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "electorate_id"
+  end
+
+  create_table "states", force: true do |t|
+    t.string   "name"
+    t.integer  "size"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
