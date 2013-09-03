@@ -58,9 +58,9 @@
 			verticalAlign: "top",//top, center, bottom
 			horizontalAlign: "center",//left, center, right
 			fontSize: 20,//in pixels
-			fontFamily: "Calibri",
+			fontFamily: "Armata",
 			fontWeight: "normal", //normal, bold, bolder, lighter,
-			fontColor: "black",
+			fontColor: "#FA1451",
 			fontStyle: "normal", // normal, italic, oblique
 
 			borderThickness: 0,
@@ -81,10 +81,10 @@
 			indexLabel: "",
 			indexLabelPlacement: "outside",  //inside, outside       
 			indexLabelOrientation: "horizontal",
-			indexLabelFontColor: "black",
+			indexLabelFontColor: "#FA1451",
 			indexLabelFontSize: 12,
 			indexLabelFontStyle: "normal", //   italic ,oblique, normal 
-			indexLabelFontFamily: "Arial", 	// fx: Arial Verdana "Courier New" Serif 
+			indexLabelFontFamily: "Armata", 	// fx: Arial Verdana "Courier New" Serif 
 			indexLabelFontWeight: "normal", 	// bold ,bolder, lighter, normal 
 			indexLabelBackgroundColor: null,
 			indexLabelLineColor: "#808080",
@@ -239,11 +239,11 @@
 	var colorSets = {
 
 		"colorSet1": [
-			"#369EAD",
-			"#C24642",
-			"#7F6084",
+			"#006FB9",
+			"#CB0F32",
+			"#000",
 			//"#96C412",
-			"#86B402",
+			"#F27405",
 			"#A2D1CF",
 			//"#D8C641",
 			"#C8B631",
