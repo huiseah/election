@@ -17,4 +17,5 @@
 //= require raphael
 //= require mapsvg
 //= require election
+//= require canvasjs
 //= require_tree .
