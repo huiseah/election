@@ -1,12 +1,13 @@
 Electorate.destroy_all
 Party.destroy_all
 State.destroy_all
+User.destroy_all
 
 
+u1 = User.create(:email => 'admin@admin.com', :password => 'a', :password_confirmation => 'a')
+u1.is_admin = true
+u1.save
 
-# u1 = Candidate.create(:email => 'bob@gmail.com', :balance => 75_000, :password => 'a', :password_confirmation => 'a')
-# u2 = Candidate.create(:email => 'sam@gmail.com', :balance => 80_300, :password => 'a', :password_confirmation => 'a')
-# u2 = Candidate.create(:email => 'vox@gmail.com', :balance => 100_900, :password => 'a', :password_confirmation => 'a')
 
 s1 = State.create(:name => 'ACT', :size => 223697)
 s2 = State.create(:name => 'NSW', :size => 4009318)

@@ -7,7 +7,6 @@
 #  size               :integer
 #  history            :text
 #  sitting_mp         :string(255)
-#  polls              :integer
 #  tertiary_education :integer
 #  median_income      :integer
 #  candidate_id       :integer

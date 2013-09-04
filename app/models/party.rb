@@ -4,8 +4,9 @@
 #
 #  id            :integer          not null, primary key
 #  name          :string(255)
+#  candidate     :string(255)
+#  polls         :float
 #  bio           :text
-#  polls         :integer
 #  winner        :boolean          default(FALSE)
 #  links         :text
 #  created_at    :datetime

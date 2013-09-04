@@ -10,4 +10,13 @@ get '/vic' => 'states#vic', as: "vic"
 get '/act' => 'states#act', as: "act"
 get '/tas' => 'states#tas', as: "tas"
 get '/sa' => 'states#sa', as: "sa"
+
+
+get 'electorate/new' => 'states#new'
+post 'electorate/new' => 'states#create'
+
+
+get '/login' => 'session#new'
+post 'login' => 'session#create'
+get '/logout' => 'session#destroy'
 end
