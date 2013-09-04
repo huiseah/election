@@ -34,7 +34,7 @@ a {
 a:hover {color:$purple;}
 
 #container {
-  width: 960px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -83,7 +83,6 @@ nav {
 
 .creators {
   width: 100%;
-  text-align: right;
   p {
     font-size: 0.7em;
   }
@@ -214,3 +213,12 @@ h1 {
   float: left;
 }
 
+.graph {
+float: right;
+width: 400px;
+}
+
+.map {
+  float: left;
+  width: 800px;
+}

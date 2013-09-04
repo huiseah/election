@@ -1,10 +1,11 @@
 <%= render 'layouts/header' %>
 
 <div id="container">
-  <%= render 'layouts/nav' %>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
+  <%= render 'layouts/nav' %>
   <%= yield %>
+  
 </div>
 
 <%= render 'layouts/footer' %>
