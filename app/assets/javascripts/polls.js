@@ -8,7 +8,7 @@ window.onload = function () {
    },
     data: [              
     {
-      type: "pie",
+      type: "doughnut",
       indexLabelFontFamily: "Armata",
       indexLabelLineColor: "#E13E06",
       indexLabelFontColor: "#FA1451",
@@ -31,7 +31,7 @@ window.onload = function () {
     },
     data: [              
     {
-    type: "doughnut",
+    type: "pie",
     indexLabelFontFamily: "Armata",
     indexLabelLineColor: "#E13E06",
     indexLabelFontColor: "#FA1451",
