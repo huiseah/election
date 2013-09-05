@@ -57,8 +57,6 @@ e36 = Electorate.create(:name => 'VIC', :sitting_mp => 'Labor', :state_id => s7.
 e37 = Electorate.create(:name => 'WA', :sitting_mp => 'Coalition', :state_id => s8.id)
 
 
-
-
 p1 = Party.create(:name => 'ALP', :electorate_id => e1.id, :candidate => e1.sitting_mp, :poll => 54.24 )
 p2 = Party.create(:name => 'LNQ', :electorate_id => e1.id, :candidate => 'Neil Leslie ZABEL', :poll => 45.76)
 

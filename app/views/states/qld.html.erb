@@ -3,6 +3,33 @@
 <div id="chartContainer" style="height: 300px; width: 100%;">
 </div>
 
-<% @electorates.each do |e| %>
-<%= e.name %>
-<% end %>
+<div class="CSSTableGenerator" >
+  <table >
+    <tr>
+      <td>
+          ELECTORATE
+      </td>
+      <td >
+          CURRENT MP
+      </td>
+      <td>
+          2010 SWING %
+      </td>
+	  </tr>
+		<% @electorates.each do |e| %>
+  	<tr>
+      <td >
+        <%= e.name %>
+      </td>
+      <td>
+        <%= e.sitting_mp %>
+      </td>
+      <td>
+          Row 1
+      </td>
+  	</tr>
+  <% end %>
+  </table>
+</div>
+
+            
