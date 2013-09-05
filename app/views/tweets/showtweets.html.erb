@@ -2,7 +2,7 @@
   <h1>Party News</h1>
   <hr/>
   <div class="labor">
-    <a href="http://www.alp.org.au/"><h3 class="laborcolour">Australian Labor Party</h3></a> 
+    <a href="http://www.alp.org.au/"><h3 class="laborcolour">Australian Labor Party</h3></a>
     <script src="https://apis.google.com/js/plusone.js"></script>
     <div class="g-ytsubscribe" data-channel="australianlabor" data-layout="full"></div>
     <a href="https://twitter.com/AustralianLabor" class="twitter-follow-button" data-show-count="false">Follow @AustralianLabor</a>
@@ -15,6 +15,17 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
     </script>
+    <h4 class="laborcolour">Policy</h4>
+    <div class="span" id="span">
+    <ol>
+    <li><div class="laborcolour">ECONOMY:</div> Keynesian school of economics. Stimulatory through rational spending. Transition from resources investment to other drivers of economic growth.</li>
+    <li><div class="laborcolour">WORKPLACE:</div> Continue regulations to prevent workplace abuses. Reduced range of options available to employers.</li>
+    <li><div class="laborcolour">HEALTH:</div> Policy in cooperation with States. Means testing on private health insurance rebate. Policies to benefit vulnerable members of society (NDIS, tobacco packaging regulations, public dental care for low-income households & mental health package).</li>
+    <li><div class="laborcolour">IMMIGRATION:</div> Stop refugee boat arrivals from ever settling in Australia. Continue processing in PNG with repatriation, final settlement there or in third country. Additional red tape on the use of the 457 visa program.</li>
+    <li><div class="laborcolour">INDIGENOUS AFFAIRS:</div> Favours funding and proper constitutional recognition for Indigenous Australians.</li>
+    </ol>
+    </div>
+    <h4 class="laborcolour">Twitter</h4>
     <% @labor_tweets[0..9].each_with_index do |tweet, i| %>
       <div class="span" id="tweet_<%= i + 1 %>" >
         <h3>"<%= tweet.text %>"</h3>
@@ -23,7 +34,6 @@
       </div>
     <% end %>
   </div>
-
   <div class="liberal"> 
     <a href="http://www.liberal.org.au/"><h3 class="liberalcolour">Liberal Party of Australia</h3></a>
     <script src="https://apis.google.com/js/plusone.js"></script>
@@ -38,6 +48,17 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
     </script>
+    <h4 class="liberalcolour">Policy</h4>
+    <div class="span" id="span">
+    <ol>
+    <li><div class="liberalcolour">ECONOMY:</div> Austerity cuts whilst pledging $15.9b (more than 5x goverment) in campaign promises simultaneously lowering income and capital gains taxes and reducing regulation including environmental 'green-tape'.</li>
+    <li><div class="liberalcolour">WORKPLACE:</div> Weaken protection for workers and union representation, business-friendly intentions, Discontinue low-income super contribution, delay rise in compulsory super from 9% to 12% by 2 years.</li>
+    <li><div class="liberalcolour">HEALTH:</div> Move to privatise public hospitals and cuts to services. Abolish means testing on private health insurance rebate. Incorporate dental care within Medicare.</li>
+    <li><div class="liberalcolour">IMMIGRATION:</div> Against Indonesian objections, navy to repel suspected refugee-carrying Indonesian vessels.Refugees on bridging visas subject to 'behavioural protocols' and 'work for welfare'. 457 visa program to become mainstay of immigration program.</li>
+    <li><div class="liberalcolour">INDIGENOUS AFFAIRS:</div> Also favours proper constitutional recognition for Indigenous Australians. Critical on expenditures in indigenous affairs citing waste and mismanagement. Opposes changes to native title laws to strengthen “good faith" bargaining between claimants and respondents.</li>
+    </ol>
+    </div>
+    <h4 class="liberalcolour">Twitter</h4>
     <% @liberal_tweets[0..9].each_with_index do |tweet, i| %>
       <div class="span" id="tweet_<%= i + 1 %>" >
         <h3>"<%= tweet.text %>"</h3>
@@ -61,6 +82,17 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();
     </script>
+    <h4 class="greenscolour">Policy</h4>
+    <div class="span" id="span">
+    <ol>
+    <li><div class="greenscolour">ECONOMY:</div> Economic growth decoupled from resource use and pollution. Measures of national progress should include indicators, such as sustainability and social wellbeing. Oppose subsidies for fossil fuel industries.</li>
+    <li><div class="greenscolour">WORKPLACE:</div> Strong safety net for workers and collective bargaining for negotiating wages and conditions. Left of Labor on questions of regulation. </li>
+    <li><div class="greenscolour">HEALTH:</div> Universal public health system funded via the tax system and universal access to public dental care. Proposed ban on junk food advertising to children, alcohol warning labels and traffic-light labelling for food. Redirection of funds from private health subsidies to public health initiatives including public hospitals.</li>
+    <li><div class="greenscolour">IMMIGRATION:</div> End offshore processing of refugees, abolish mandatory detention, increase humanitarian migration quota and resettlement resources.  </li>
+    <li><div class="greenscolour">INDIGENOUS AFFAIRS:</div> Favours and intends to expand proper constitutional recognition for Indigenous Australians. Opposes the NT intervention and the compulsory quarantining of welfare benefits “which directly and indirectly discriminate against Aboriginal and Torres Strait Islander peoples".</li>
+    </ol> 
+    </div>
+    <h4 class="greenscolour">Twitter</h4>
     <% @greens_tweets[0..9].each_with_index do |tweet, i| %>
       <div class="span" id="tweet_<%= i + 1 %>" >
         <h3>"<%= tweet.text %>"</h3>

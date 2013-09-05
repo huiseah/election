@@ -199,6 +199,10 @@ button {
   }
 }
 
+#span {
+  height:450px;
+}
+
 .twitter {
   height: 100px;
   width: 50px;
@@ -225,7 +229,7 @@ width: 400px;
 
 .CSSTableGenerator {
   margin:0px;padding:0px;
-  width:100%;
+  width:50%;
   border:1px solid #ffffff;
   
   -moz-border-radius-bottomleft:0px;
@@ -314,4 +318,14 @@ width: 400px;
 }
 .CSSTableGenerator tr:first-child td:last-child{
   border-width:0px 0px 1px 1px;
+}
+
+.qldmap {
+  float: left;
+  width: 50%;
+}
+
+.table {
+  float: left;
+  width: 50%;
 }
