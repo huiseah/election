@@ -1,5 +1,4 @@
 class StatesController < ApplicationController
-	before_filter :check_if_admin, :only => [:new, :create]
 
 	def qld 
 		@qld = State.where(:name => 'QLD').first
@@ -41,18 +40,5 @@ class StatesController < ApplicationController
 		@sa = State.where(:name => 'SA').first
 		@electorates = Electorate.where(:state_id => @sa.id)
 	end
-
-	def new
-		@electorate = Electorate.new
-	end
-
-	def create
-		electorate = Electorate.create(params[:electorate])
-	end
-
-private
-  def check_if_admin
-    redirect_to(root_path) if @auth.nil? || !@auth.is_admin?
-  end
 
 end
