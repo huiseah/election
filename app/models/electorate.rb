@@ -22,7 +22,7 @@ class Electorate < ActiveRecord::Base
 
     validates :name, :presence => true
 
-  def offer_won?
+  def electorate_won?
     self.parties.where(:winner => true).count == 1
   end
 end
