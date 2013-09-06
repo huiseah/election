@@ -1,0 +1,18 @@
+%div.row.center
+  %div.transbox
+    %article.tty   
+      %div.large-4.columns.large-centered
+        = form_for @electorate, :remote => true do |f|
+          %ul.nodec
+            %li= f.label :name
+            %li= f.text_field :name, :placeholder => 'Name of Electorate', :autofocus => true
+            %li= f.label :size
+            %li= f.number_field :size, :placeholder => 'Voting size of Electorate'
+            %li= f.label :Sitting_MP
+            %li= f.text_field :sitting_mp, :placeholder => 'Sitting Member of Parliment'
+            %li= f.label :State
+            = f.collection_select :state_id, State.all, :id, :name
+            = f.submit 'Create Electorate', :class => 'button' 
+        %div#quote
+      .large-8.columns 
+
