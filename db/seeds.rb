@@ -24,7 +24,7 @@ e3 = Electorate.create(:name => 'Bowman', :sitting_mp => 'Andrew  LAMING', :stat
 e4 = Electorate.create(:name => 'Brisbane', :sitting_mp => 'Teresa  GAMBARO', :state_id => s4.id)
 e5 = Electorate.create(:name => 'Capricornia', :sitting_mp => 'Kirsten LIVERMORE', :state_id => s4.id)
 e6 = Electorate.create(:name => 'Dawson', :sitting_mp => 'George Robert CHRISTENSEN', :state_id => s4.id)
-e7 = Electorate.create(:name => 'Dickson', :sitting_mp => 'Dickson  QLD 21357 Peter DUTTON', :state_id => s4.id)
+e7 = Electorate.create(:name => 'Dickson', :sitting_mp => 'Peter DUTTON', :state_id => s4.id)
 e8 = Electorate.create(:name => 'Fadden', :sitting_mp => 'Stuart  ROBERT', :state_id => s4.id)
 e9 = Electorate.create(:name => 'Fairfax', :sitting_mp => 'Alex  SOMLYAY', :state_id => s4.id)
 e10 = Electorate.create(:name => 'Fisher', :sitting_mp => 'Peter SLIPPER', :state_id => s4.id)
