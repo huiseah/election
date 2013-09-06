@@ -1,31 +1,18 @@
 ==ABOUT AUSVOTES
 
-	AusVotes was born out of the desire to understand and visualise the Australian polling data for the 2013 Federal election. We wanted to make it easy for people to see a visual representation of the current polling data.
+AusVotes was born out of the desire to understand and visualise the Australian polling data for the 2013 Federal election. We wanted to make it easy for people to see a visual representation of the current polling data.
 
-	Our goal is to help people understand who the candidates are and what the latest polling data is revealing to the public.
+Our goal is to help people understand who the candidates are and what the latest polling data is revealing to the public.
 
 ==PRINCIPLES
 An experimental approach to UX. We wanted to disrupt the hegemonic legacy of binding functionality to buttons. It is through indoctrination via habitualisation that buttons for example gain the aura of 'correctness'. We felt an approach of embedded functionality within images, maps and text would be more intuitive. The degrees of success or failure of which we may be judged by will thus depend on how intuitively a user discovers further functionality beyond the text, images and maps.
 
 Lastly to make sense of the political B.S. To simplify data without losing subtlety. Simplification without dumbling down. 
 
-==STEPS
-
 ==CHALLENGES
 We found it challenging to sort the polling data provided in a CSV file and to get it to seed properly into our database.
 
-Testing the Javascript was also a new challenge for us.
-
-
-
-==TO DO 
-1. Sort out graph with Daniel. Map isn't showing up via Javascript.
-3. Make responsive design via media queries!!
-
-
-
-
-==Political PARTIES Summary==
+==POLITICAL PARTIES SUMMARY
 
 1. LABOR
 -ECONOMY: Keynesian school of economics. Stimulatory through rational spending. Transition from resources investment to other drivers of economic growth.
@@ -50,3 +37,10 @@ Refugees on bridging visas subject to 'behavioural protocols' and 'work for welf
 -HEALTH: Universal public health system funded via the tax system and universal access to public dental care. Proposed ban on junk food advertising to children, alcohol warning labels and traffic-light labelling for food. Redirection of funds from private health subsidies to public health initiatives including public hospitals.
 -IMMIGRATION: End offshore processing of refugees, abolish mandatory detention, increase humanitarian migration quota and resettlement resources. 
 -INDIGENOUS AFFAIRS: Favours and intends to expand proper constitutional recognition for Indigenous Australians. Opposes the NT intervention and the compulsory quarantining of welfare benefits “which directly and indirectly discriminate against Aboriginal and Torres Strait Islander peoples".
+
+==CONTACT
+Hui Seah
+Github: github.com/huiseah
+
+Ryan Drake
+Github: github.com/rdrakey

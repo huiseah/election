@@ -14,8 +14,8 @@ window.onload = function () {
       indexLabelFontColor: "#FA1451",
       indexLabelFontSize: 16,
       dataPoints: [
-      { label: "COAL", y: 54.1 },
-      { label: "ALP", y: 45.9 }
+      { label: "COAL", y: 53.2 },
+      { label: "ALP", y: 46.8 }
       ]
     }
     ]
@@ -37,8 +37,8 @@ window.onload = function () {
     indexLabelFontColor: "#FA1451",
     indexLabelFontSize: 16,
     dataPoints: [
-    { label: "COAL", y: 92 },
-    { label: "ALP", y: 53 },
+    { label: "COAL", y: 97 },
+    { label: "ALP", y: 47 },
     { label: "Andrew Wilkie", y: 1 },
     { label: "KAP", y: 1 }
     ]
