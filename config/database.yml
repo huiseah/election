@@ -4,7 +4,7 @@ development:
   database: election_development
   pool: 5
   host: localhost
-  username: hui
+  username: Ryan
   password: password
 
 test:
@@ -13,7 +13,7 @@ test:
   database: election_test
   pool: 5
   host: localhost
-  username: hui
+  username: Ryan
   password: password
 
 production:
@@ -21,5 +21,5 @@ production:
   encoding: unicode
   database: election_production
   pool: 5
-  username: hui
+  username: Ryan
   password: password
