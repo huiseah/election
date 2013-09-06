@@ -1,0 +1,10 @@
+%div.row
+  %div.large-3.columns.large-centered
+    = form_tag '/login' do
+      %ul.nodec
+        %li= label_tag :email
+        %li= text_field_tag :email, nil, :autofocus => true
+        %li= label_tag :password
+        %li= password_field_tag :password
+        %li= submit_tag 'Login', :class => 'button'
+  %div.large-9.columns

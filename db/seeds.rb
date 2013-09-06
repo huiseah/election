@@ -57,113 +57,115 @@ e36 = Electorate.create(:name => 'VIC', :sitting_mp => 'Labor', :state_id => s7.
 e37 = Electorate.create(:name => 'WA', :sitting_mp => 'Coalition', :state_id => s8.id)
 
 
-p1 = Party.create(:name => 'ALP', :electorate_id => e1.id, :candidate => e1.sitting_mp, :poll => 54.24 )
-p2 = Party.create(:name => 'LNQ', :electorate_id => e1.id, :candidate => 'Neil Leslie ZABEL', :poll => 45.76)
+p1 = Party.create(:name => 'ALP', :electorate_id => e1.id, :candidate => e1.sitting_mp, :polls => 54.24 )
+p2 = Party.create(:name => 'LNQ', :electorate_id => e1.id, :candidate => 'Neil Leslie ZABEL', :polls => 45.76)
 
-p3 = Party.create(:name => 'ALP', :electorate_id => e2.id, :candidate => 'Kerry REA', :poll => 47.18)
-p4 = Party.create(:name => 'LNQ', :electorate_id => e2.id, :candidate => e2.sitting_mp, :poll => 52.82)
+p3 = Party.create(:name => 'ALP', :electorate_id => e2.id, :candidate => 'Kerry REA', :polls => 47.18)
+p4 = Party.create(:name => 'LNQ', :electorate_id => e2.id, :candidate => e2.sitting_mp, :polls => 52.82)
 
-p5 = Party.create(:name => 'ALP', :electorate_id => e3.id, :candidate => 'Jenny PETERS', :poll => 39.61)
-p6 = Party.create(:name => 'LNQ', :electorate_id => e3.id, :candidate => e3.sitting_mp, :poll => 60.39)
+p5 = Party.create(:name => 'ALP', :electorate_id => e3.id, :candidate => 'Jenny PETERS', :polls => 39.61)
+p6 = Party.create(:name => 'LNQ', :electorate_id => e3.id, :candidate => e3.sitting_mp, :polls => 60.39)
 
-p7 = Party.create(:name => 'ALP', :electorate_id => e4.id, :candidate => 'Arch BEVIS', :poll => 48.87)
-p8 = Party.create(:name => 'LNQ', :electorate_id => e4.id, :candidate => e4.sitting_mp, :poll => 51.13)
+p7 = Party.create(:name => 'ALP', :electorate_id => e4.id, :candidate => 'Arch BEVIS', :polls => 48.87)
+p8 = Party.create(:name => 'LNQ', :electorate_id => e4.id, :candidate => e4.sitting_mp, :polls => 51.13)
 
-p9 = Party.create(:name => 'ALP', :electorate_id => e5.id, :candidate => e5.sitting_mp, :poll => 53.68)
-p10 = Party.create(:name => 'LNQ', :electorate_id => e5.id, :candidate => 'Michelle LANDRY', :poll => 46.32)
+p9 = Party.create(:name => 'ALP', :electorate_id => e5.id, :candidate => e5.sitting_mp, :polls => 53.68)
+p10 = Party.create(:name => 'LNQ', :electorate_id => e5.id, :candidate => 'Michelle LANDRY', :polls => 46.32)
 
-p11 = Party.create(:name => 'ALP', :electorate_id => e6.id, :candidate => 'Mike BRUNKER', :poll => 47.57)
-p12 = Party.create(:name => 'LNQ', :electorate_id => e6.id, :candidate => e6.sitting_mp, :poll => 52.43)
+p11 = Party.create(:name => 'ALP', :electorate_id => e6.id, :candidate => 'Mike BRUNKER', :polls => 47.57)
+p12 = Party.create(:name => 'LNQ', :electorate_id => e6.id, :candidate => e6.sitting_mp, :polls => 52.43)
 
-p13 = Party.create(:name => 'ALP', :electorate_id => e7.id, :candidate => 'Fiona McNAMARA', :poll => 44.87)
-p14 = Party.create(:name => 'LNQ', :electorate_id => e7.id, :candidate => e7.sitting_mp, :poll => 55.13)
+p13 = Party.create(:name => 'ALP', :electorate_id => e7.id, :candidate => 'Fiona McNAMARA', :polls => 44.87)
+p14 = Party.create(:name => 'LNQ', :electorate_id => e7.id, :candidate => e7.sitting_mp, :polls => 55.13)
 
-p15 = Party.create(:name => 'ALP', :electorate_id => e8.id, :candidate => 'Rana WATSON', :poll => 35.81)
-p16 = Party.create(:name => 'LNQ', :electorate_id => e8.id, :candidate => e8.sitting_mp, :poll => 64.19)
+p15 = Party.create(:name => 'ALP', :electorate_id => e8.id, :candidate => 'Rana WATSON', :polls => 35.81)
+p16 = Party.create(:name => 'LNQ', :electorate_id => e8.id, :candidate => e8.sitting_mp, :polls => 64.19)
 
-p17 = Party.create(:name => 'ALP', :electorate_id => e9.id, :candidate => 'Dan McINTYRE', :poll => 43.05)
-p18 = Party.create(:name => 'LNQ', :electorate_id => e9.id, :candidate => e9.sitting_mp, :poll => 56.95)
+p17 = Party.create(:name => 'ALP', :electorate_id => e9.id, :candidate => 'Dan McINTYRE', :polls => 43.05)
+p18 = Party.create(:name => 'LNQ', :electorate_id => e9.id, :candidate => e9.sitting_mp, :polls => 56.95)
 
-p19 = Party.create(:name => 'ALP', :electorate_id => e10.id, :candidate => 'Chris CUMMINS', :poll => 45.87)
-p20 = Party.create(:name => 'INDY', :electorate_id => e10.id, :candidate => e10.sitting_mp, :poll => 54.13)
+p19 = Party.create(:name => 'ALP', :electorate_id => e10.id, :candidate => 'Chris CUMMINS', :polls => 45.87)
+p20 = Party.create(:name => 'INDY', :electorate_id => e10.id, :candidate => e10.sitting_mp, :polls => 54.13)
 
-p21 = Party.create(:name => 'ALP', :electorate_id => e11.id, :candidate => 'Chris TREVOR', :poll => 46.42)
-p22 = Party.create(:name => 'LNQ', :electorate_id => e11.id, :candidate => e11.sitting_mp, :poll => 53.58)
+p21 = Party.create(:name => 'ALP', :electorate_id => e11.id, :candidate => 'Chris TREVOR', :polls => 46.42)
+p22 = Party.create(:name => 'LNQ', :electorate_id => e11.id, :candidate => e11.sitting_mp, :polls => 53.58)
 
-p23 = Party.create(:name => 'ALP', :electorate_id => e12.id, :candidate => 'Brett RAGUSE', :poll => 48.37)
-p24 = Party.create(:name => 'LNQ', :electorate_id => e12.id, :candidate => e12.sitting_mp, :poll => 51.63)
+p23 = Party.create(:name => 'ALP', :electorate_id => e12.id, :candidate => 'Brett RAGUSE', :polls => 48.37)
+p24 = Party.create(:name => 'LNQ', :electorate_id => e12.id, :candidate => e12.sitting_mp, :polls => 51.63)
 
-p25 = Party.create(:name => 'ALP', :electorate_id => e13.id, :candidate => e13.sitting_mp, :poll => 58.46)
-p26 = Party.create(:name => 'LNQ', :electorate_id => e13.id, :candidate => 'Rebecca DOCHERTY', :poll => 41.54)
+p25 = Party.create(:name => 'ALP', :electorate_id => e13.id, :candidate => e13.sitting_mp, :polls => 58.46)
+p26 = Party.create(:name => 'LNQ', :electorate_id => e13.id, :candidate => 'Rebecca DOCHERTY', :polls => 41.54)
 
-p27 = Party.create(:name => 'ALP', :electorate_id => e14.id, :candidate => 'Chris MEIBUSCH', :poll => 31.47)
-p28 = Party.create(:name => 'LNQ', :electorate_id => e14.id, :candidate => e14.sitting_mp, :poll => 68.53)
+p27 = Party.create(:name => 'ALP', :electorate_id => e14.id, :candidate => 'Chris MEIBUSCH', :polls => 31.47)
+p28 = Party.create(:name => 'LNQ', :electorate_id => e14.id, :candidate => e14.sitting_mp, :polls => 68.53)
 
-p29 = Party.create(:name => 'ALP', :electorate_id => e15.id, :candidate => 'Tony MOONEY', :poll => 47.83)
-p30 = Party.create(:name => 'LNQ', :electorate_id => e15.id, :candidate => e15.sitting_mp, :poll => 52.17)
+p29 = Party.create(:name => 'ALP', :electorate_id => e15.id, :candidate => 'Tony MOONEY', :polls => 47.83)
+p30 = Party.create(:name => 'LNQ', :electorate_id => e15.id, :candidate => e15.sitting_mp, :polls => 52.17)
 
-p31 = Party.create(:name => 'ALP', :electorate_id => e16.id, :candidate => 'Belinda MCNEVEN', :poll => 39.61)
-p32 = Party.create(:name => 'LNQ', :electorate_id => e16.id, :candidate => e16.sitting_mp, :poll => 60.39)
+p31 = Party.create(:name => 'ALP', :electorate_id => e16.id, :candidate => 'Belinda MCNEVEN', :polls => 39.61)
+p32 = Party.create(:name => 'LNQ', :electorate_id => e16.id, :candidate => e16.sitting_mp, :polls => 60.39)
 
-p33 = Party.create(:name => 'LNQ', :electorate_id => e17.id, :candidate => 'Ed MORRISON', :poll => 31.66)
-p34 = Party.create(:name => 'INDY', :electorate_id => e17.id, :candidate => e17.sitting_mp, :poll => 68.34)
+p33 = Party.create(:name => 'LNQ', :electorate_id => e17.id, :candidate => 'Ed MORRISON', :polls => 31.66)
+p34 = Party.create(:name => 'INDY', :electorate_id => e17.id, :candidate => e17.sitting_mp, :polls => 68.34)
 
-p35 = Party.create(:name => 'ALP', :electorate_id => e18.id, :candidate => 'Jim TURNOUR', :poll => 45.45)
-p36 = Party.create(:name => 'LNQ', :electorate_id => e18.id, :candidate => e18.sitting_mp, :poll => 54.55)
+p35 = Party.create(:name => 'ALP', :electorate_id => e18.id, :candidate => 'Jim TURNOUR', :polls => 45.45)
+p36 = Party.create(:name => 'LNQ', :electorate_id => e18.id, :candidate => e18.sitting_mp, :polls => 54.55)
 
-p37 = Party.create(:name => 'ALP', :electorate_id => e19.id, :candidate => e19.sitting_mp, :poll => 53.18)
-p38 = Party.create(:name => 'LNQ', :electorate_id => e19.id, :candidate => 'Rod McGARVIE', :poll => 46.82)
+p37 = Party.create(:name => 'ALP', :electorate_id => e19.id, :candidate => e19.sitting_mp, :polls => 53.18)
+p38 = Party.create(:name => 'LNQ', :electorate_id => e19.id, :candidate => 'Rod McGARVIE', :polls => 46.82)
 
-p39 = Party.create(:name => 'ALP', :electorate_id => e20.id, :candidate => 'Jon SULLIVAN', :poll => 48.08)
-p40 = Party.create(:name => 'LNQ', :electorate_id => e20.id, :candidate => e20.sitting_mp, :poll => 51.92)
+p39 = Party.create(:name => 'ALP', :electorate_id => e20.id, :candidate => 'Jon SULLIVAN', :polls => 48.08)
+p40 = Party.create(:name => 'LNQ', :electorate_id => e20.id, :candidate => e20.sitting_mp, :polls => 51.92)
 
-p41 = Party.create(:name => 'ALP', :electorate_id => e21.id, :candidate => 'Geoff KEATING', :poll => 27.11)
-p42 = Party.create(:name => 'LNQ', :electorate_id => e21.id, :candidate => e21.sitting_mp, :poll => 72.89)
+p41 = Party.create(:name => 'ALP', :electorate_id => e21.id, :candidate => 'Geoff KEATING', :polls => 27.11)
+p42 = Party.create(:name => 'LNQ', :electorate_id => e21.id, :candidate => e21.sitting_mp, :polls => 72.89)
 
-p43 = Party.create(:name => 'ALP', :electorate_id => e22.id, :candidate => 'Dan BYRON', :poll => 39.72)
-p44 = Party.create(:name => 'LNQ', :electorate_id => e22.id, :candidate => e22.sitting_mp, :poll => 60.28)
+p43 = Party.create(:name => 'ALP', :electorate_id => e22.id, :candidate => 'Dan BYRON', :polls => 39.72)
+p44 = Party.create(:name => 'LNQ', :electorate_id => e22.id, :candidate => e22.sitting_mp, :polls => 60.28)
 
-p45 = Party.create(:name => 'ALP', :electorate_id => e23.id, :candidate => 'Robert HOUGH', :poll => 32.51)
-p46 = Party.create(:name => 'LNQ', :electorate_id => e23.id, :candidate => e23.sitting_mp, :poll => 67.49)
+p45 = Party.create(:name => 'ALP', :electorate_id => e23.id, :candidate => 'Robert HOUGH', :polls => 32.51)
+p46 = Party.create(:name => 'LNQ', :electorate_id => e23.id, :candidate => e23.sitting_mp, :polls => 67.49)
 
-p47 = Party.create(:name => 'ALP', :electorate_id => e24.id, :candidate => e24.sitting_mp, :poll => 51.13)
-p48 = Party.create(:name => 'LNQ', :electorate_id => e24.id, :candidate => 'Malcolm Edward COLE', :poll => 48.87)
+p47 = Party.create(:name => 'ALP', :electorate_id => e24.id, :candidate => e24.sitting_mp, :polls => 51.13)
+p48 = Party.create(:name => 'LNQ', :electorate_id => e24.id, :candidate => 'Malcolm Edward COLE', :polls => 48.87)
 
-p49 = Party.create(:name => 'ALP', :electorate_id => e25.id, :candidate => e25.sitting_mp, :poll => 55.77)
-p50 = Party.create(:name => 'LNQ', :electorate_id => e25.id, :candidate => 'Tarnya Lisa SMITH', :poll => 44.23)
+p49 = Party.create(:name => 'ALP', :electorate_id => e25.id, :candidate => e25.sitting_mp, :polls => 55.77)
+p50 = Party.create(:name => 'LNQ', :electorate_id => e25.id, :candidate => 'Tarnya Lisa SMITH', :polls => 44.23)
 
-p51 = Party.create(:name => 'ALP', :electorate_id => e26.id, :candidate => e26.sitting_mp, :poll => 52.51)
-p52 = Party.create(:name => 'LNQ', :electorate_id => e26.id, :candidate => 'Dean TEASDALE', :poll => 47.49)
+p51 = Party.create(:name => 'ALP', :electorate_id => e26.id, :candidate => e26.sitting_mp, :polls => 52.51)
+p52 = Party.create(:name => 'LNQ', :electorate_id => e26.id, :candidate => 'Dean TEASDALE', :polls => 47.49)
 
-p53 = Party.create(:name => 'ALP', :electorate_id => e27.id, :candidate => e27.sitting_mp, :poll => 55.41)
-p54 = Party.create(:name => 'LNQ', :electorate_id => e27.id, :candidate => 'Luke SMITH', :poll => 44.59)
+p53 = Party.create(:name => 'ALP', :electorate_id => e27.id, :candidate => e27.sitting_mp, :polls => 55.41)
+p54 = Party.create(:name => 'LNQ', :electorate_id => e27.id, :candidate => 'Luke SMITH', :polls => 44.59)
 
-p55 = Party.create(:name => 'ALP', :electorate_id => e28.id, :candidate => 'Steven MILES', :poll => 42.84)
-p56 = Party.create(:name => 'LNQ', :electorate_id => e28.id, :candidate => e28.sitting_mp, :poll => 57.16)
+p55 = Party.create(:name => 'ALP', :electorate_id => e28.id, :candidate => 'Steven MILES', :polls => 42.84)
+p56 = Party.create(:name => 'LNQ', :electorate_id => e28.id, :candidate => e28.sitting_mp, :polls => 57.16)
 
-p57 = Party.create(:name => 'ALP', :electorate_id => e29.id, :candidate => 'Nikolee ANSELL', :poll => 34.39)
-p58 = Party.create(:name => 'LNQ', :electorate_id => e29.id, :candidate => e29.sitting_mp, :poll => 65.61)
+p57 = Party.create(:name => 'ALP', :electorate_id => e29.id, :candidate => 'Nikolee ANSELL', :polls => 34.39)
+p58 = Party.create(:name => 'LNQ', :electorate_id => e29.id, :candidate => e29.sitting_mp, :polls => 65.61)
 
-p59 = Party.create(:name => 'ALP', :electorate_id => e30.id, :candidate => 'Andrew RAMSAY', :poll => 39.85)
-p60 = Party.create(:name => 'LNQ', :electorate_id => e30.id, :candidate => e30.sitting_mp, :poll => 60.15)
+p59 = Party.create(:name => 'ALP', :electorate_id => e30.id, :candidate => 'Andrew RAMSAY', :polls => 39.85)
+p60 = Party.create(:name => 'LNQ', :electorate_id => e30.id, :candidate => e30.sitting_mp, :polls => 60.15)
 
-p61 = Party.create(:name => 'ALP', :electorate_id => e31.id, :candidate => e31.sitting_mp, :poll => 61.67)
-p62 = Party.create(:name => 'COAL', :electorate_id => e31.id, :candidate => 'Coalition', :poll => 38.33)
+p61 = Party.create(:name => 'ALP', :electorate_id => e31.id, :candidate => e31.sitting_mp, :polls => 61.67)
+p62 = Party.create(:name => 'COAL', :electorate_id => e31.id, :candidate => 'Coalition', :polls => 38.33)
 
-p63 = Party.create(:name => 'ALP', :electorate_id => e32.id, :candidate => 'Labor', :poll => 48.84)
-p64 = Party.create(:name => 'COAL', :electorate_id => e32.id, :candidate => e32.sitting_mp, :poll => 51.16)
+p63 = Party.create(:name => 'ALP', :electorate_id => e32.id, :candidate => 'Labor', :polls => 48.84)
+p64 = Party.create(:name => 'COAL', :electorate_id => e32.id, :candidate => e32.sitting_mp, :polls => 51.16)
 
-p65 = Party.create(:name => 'ALP', :electorate_id => e33.id, :candidate => e33.sitting_mp, :poll => 50.74)
-p66 = Party.create(:name => 'COAL', :electorate_id => e33.id, :candidate => 'Coalition', :poll => 49.26)
+p65 = Party.create(:name => 'ALP', :electorate_id => e33.id, :candidate => e33.sitting_mp, :polls => 50.74)
+p66 = Party.create(:name => 'COAL', :electorate_id => e33.id, :candidate => 'Coalition', :polls => 49.26)
 
-p67 = Party.create(:name => 'ALP', :electorate_id => e34.id, :candidate => e34.sitting_mp, :poll => 53.18)
-p68 = Party.create(:name => 'COAL', :electorate_id => e34.id, :candidate => 'Coalition', :poll => 46.82)
+p67 = Party.create(:name => 'ALP', :electorate_id => e34.id, :candidate => e34.sitting_mp, :polls => 53.18)
+p68 = Party.create(:name => 'COAL', :electorate_id => e34.id, :candidate => 'Coalition', :polls => 46.82)
 
-p69 = Party.create(:name => 'ALP', :electorate_id => e35.id, :candidate => e35.sitting_mp, :poll => 60.62)
-p70 = Party.create(:name => 'COAL', :electorate_id => e35.id, :candidate => 'Coalition', :poll => 39.38)
+p69 = Party.create(:name => 'ALP', :electorate_id => e35.id, :candidate => e35.sitting_mp, :polls => 60.62)
+p70 = Party.create(:name => 'COAL', :electorate_id => e35.id, :candidate => 'Coalition', :polls => 39.38)
 
-p71 = Party.create(:name => 'ALP', :electorate_id => e36.id, :candidate => e36.sitting_mp, :poll => 55.31)
-p72 = Party.create(:name => 'COAL', :electorate_id => e36.id, :candidate => 'Coalition', :poll => 44.69)
+p71 = Party.create(:name => 'ALP', :electorate_id => e36.id, :candidate => e36.sitting_mp, :polls => 55.31)
+p72 = Party.create(:name => 'COAL', :electorate_id => e36.id, :candidate => 'Coalition', :polls => 44.69)
 
-p73 = Party.create(:name => 'ALP', :electorate_id => e37.id, :candidate => 'Labor', :poll => 43.59)
-p74 = Party.create(:name => 'COAL', :electorate_id => e37.id, :candidate => e37.sitting_mp, :poll => 56.41)
+p73 = Party.create(:name => 'ALP', :electorate_id => e37.id, :candidate => 'Labor', :polls => 43.59)
+p74 = Party.create(:name => 'COAL', :electorate_id => e37.id, :candidate => e37.sitting_mp, :polls => 56.41)
+
+puts "Party count: #{Party.count}"

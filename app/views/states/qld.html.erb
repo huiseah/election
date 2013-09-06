@@ -11,16 +11,7 @@
           CURRENT MP
       </td>
       <td>
-          POLL
-      </td>
-      <td>
-          OPPOSITION
-      </td>
-      <td>
-          POLL
-      </td>
-      <td>
-          POLL
+          2010 SWING %
       </td>
 	  </tr>
 		<% @electorates.each do |e| %>
@@ -34,13 +25,12 @@
       <td>
           Row 1
       </td>
-      <td>
-          Row 1
-      </td>
   	</tr>
   <% end %>
   </table>
 </div>
 </div>
 </div>
-            
+            <% @parties.each do |t| %>
+            <%= t.polls %>
+            <% end %>

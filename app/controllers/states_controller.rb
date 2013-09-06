@@ -4,6 +4,7 @@ class StatesController < ApplicationController
 	def qld 
 		@qld = State.where(:name => 'QLD').first
 		@electorates = Electorate.where(:state_id => @qld.id)
+		@parties = Party.where.not(:candidate => 'Labor' || 'Coalition')
 	end
 
 	def nsw
