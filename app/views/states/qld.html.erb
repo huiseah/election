@@ -4,36 +4,46 @@
 <div class="CSSTableGenerator" >
   <table >
     <tr>
-      <td>
-          ELECTORATE
+      <td >
+          Elect
       </td>
+    
       <td >
           CURRENT MP
+      </td>
+      <td>
+          %
       </td>
       <td>
           OPPOSITION
       </td>
       <td>
-          2010 POLLS
-      </td>
-      <td>
-          CURRENT SWING
+          %
       </td>
 	  </tr>
-		<% @electorates.each do |e| %>
-  	<tr>
+		<% Party.order(['electorate_id', 'polls desc']).each_with_index do |e, index| %>
+  	
+			<% if index.even? %>
+			 <tr>
+			<% end %>	
+
+			<% if index.even? %>
       <td >
-        <%= e.name %>
+        <%= e.electorate.name %>
+      </td>
+      <% end %>
+
+      <td >
+        <%= e.candidate %>
       </td>
       <td>
-        <%= e.sitting_mp %>
+        <%= e.polls %>
       </td>
-      <td>
-      </td>
-      <td>
-          Row 1
-      </td>
-  	</tr>
+
+			<% if index.odd? %>
+			 </tr>
+			<% end %>	
+
   <% end %>
   </table>
   

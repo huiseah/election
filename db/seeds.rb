@@ -61,7 +61,7 @@ p1 = Party.create(:name => 'ALP', :electorate_id => e1.id, :candidate => e1.sitt
 p2 = Party.create(:name => 'LNQ', :electorate_id => e1.id, :candidate => 'Neil Leslie ZABEL', :polls => 45.76)
 
 p3 = Party.create(:name => 'ALP', :electorate_id => e2.id, :candidate => 'Kerry REA', :polls => 47.18)
-p4 = Party.create(:name => 'LNQ', :electorate_id => e2.id, :candidate => e2.sitting_mp, :polls => 52.82)
+p4 = Party.create(:name => 'LNQ', :electorate_id => e2.id, :candidate => e2.sitting_mp, :polls => 52.82)s
 
 p5 = Party.create(:name => 'ALP', :electorate_id => e3.id, :candidate => 'Jenny PETERS', :polls => 39.61)
 p6 = Party.create(:name => 'LNQ', :electorate_id => e3.id, :candidate => e3.sitting_mp, :polls => 60.39)

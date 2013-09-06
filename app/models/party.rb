@@ -17,6 +17,7 @@
 class Party < ActiveRecord::Base
   attr_accessible :name, :bio, :winner, :electorate_id, :candidate, :polls, :links
 
+  belongs_to :electorate
 
     validates :name, :presence => true
     validates_uniqueness_of :winner, :scope => :electorate_id, :conditions => lambda { where(:winner => true) }
