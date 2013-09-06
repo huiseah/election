@@ -61,7 +61,7 @@ p1 = Party.create(:name => 'ALP', :electorate_id => e1.id, :candidate => e1.sitt
 p2 = Party.create(:name => 'LNQ', :electorate_id => e1.id, :candidate => 'Neil Leslie ZABEL', :polls => 45.76)
 
 p3 = Party.create(:name => 'ALP', :electorate_id => e2.id, :candidate => 'Kerry REA', :polls => 47.18)
-p4 = Party.create(:name => 'LNQ', :electorate_id => e2.id, :candidate => e2.sitting_mp, :polls => 52.82)s
+p4 = Party.create(:name => 'LNQ', :electorate_id => e2.id, :candidate => e2.sitting_mp, :polls => 52.82)
 
 p5 = Party.create(:name => 'ALP', :electorate_id => e3.id, :candidate => 'Jenny PETERS', :polls => 39.61)
 p6 = Party.create(:name => 'LNQ', :electorate_id => e3.id, :candidate => e3.sitting_mp, :polls => 60.39)
@@ -147,25 +147,25 @@ p58 = Party.create(:name => 'LNQ', :electorate_id => e29.id, :candidate => e29.s
 p59 = Party.create(:name => 'ALP', :electorate_id => e30.id, :candidate => 'Andrew RAMSAY', :polls => 39.85)
 p60 = Party.create(:name => 'LNQ', :electorate_id => e30.id, :candidate => e30.sitting_mp, :polls => 60.15)
 
-p61 = Party.create(:name => 'ALP', :electorate_id => e31.id, :candidate => e31.sitting_mp, :polls => 61.67)
-p62 = Party.create(:name => 'COAL', :electorate_id => e31.id, :candidate => 'Coalition', :polls => 38.33)
+# p61 = Party.create(:name => 'ALP', :electorate_id => e31.id, :candidate => e31.sitting_mp, :polls => 61.67)
+# p62 = Party.create(:name => 'COAL', :electorate_id => e31.id, :candidate => 'Coalition', :polls => 38.33)
 
-p63 = Party.create(:name => 'ALP', :electorate_id => e32.id, :candidate => 'Labor', :polls => 48.84)
-p64 = Party.create(:name => 'COAL', :electorate_id => e32.id, :candidate => e32.sitting_mp, :polls => 51.16)
+# p63 = Party.create(:name => 'ALP', :electorate_id => e32.id, :candidate => 'Labor', :polls => 48.84)
+# p64 = Party.create(:name => 'COAL', :electorate_id => e32.id, :candidate => e32.sitting_mp, :polls => 51.16)
 
-p65 = Party.create(:name => 'ALP', :electorate_id => e33.id, :candidate => e33.sitting_mp, :polls => 50.74)
-p66 = Party.create(:name => 'COAL', :electorate_id => e33.id, :candidate => 'Coalition', :polls => 49.26)
+# p65 = Party.create(:name => 'ALP', :electorate_id => e33.id, :candidate => e33.sitting_mp, :polls => 50.74)
+# p66 = Party.create(:name => 'COAL', :electorate_id => e33.id, :candidate => 'Coalition', :polls => 49.26)
 
-p67 = Party.create(:name => 'ALP', :electorate_id => e34.id, :candidate => e34.sitting_mp, :polls => 53.18)
-p68 = Party.create(:name => 'COAL', :electorate_id => e34.id, :candidate => 'Coalition', :polls => 46.82)
+# p67 = Party.create(:name => 'ALP', :electorate_id => e34.id, :candidate => e34.sitting_mp, :polls => 53.18)
+# p68 = Party.create(:name => 'COAL', :electorate_id => e34.id, :candidate => 'Coalition', :polls => 46.82)
 
-p69 = Party.create(:name => 'ALP', :electorate_id => e35.id, :candidate => e35.sitting_mp, :polls => 60.62)
-p70 = Party.create(:name => 'COAL', :electorate_id => e35.id, :candidate => 'Coalition', :polls => 39.38)
+# p69 = Party.create(:name => 'ALP', :electorate_id => e35.id, :candidate => e35.sitting_mp, :polls => 60.62)
+# p70 = Party.create(:name => 'COAL', :electorate_id => e35.id, :candidate => 'Coalition', :polls => 39.38)
 
-p71 = Party.create(:name => 'ALP', :electorate_id => e36.id, :candidate => e36.sitting_mp, :polls => 55.31)
-p72 = Party.create(:name => 'COAL', :electorate_id => e36.id, :candidate => 'Coalition', :polls => 44.69)
+# p71 = Party.create(:name => 'ALP', :electorate_id => e36.id, :candidate => e36.sitting_mp, :polls => 55.31)
+# p72 = Party.create(:name => 'COAL', :electorate_id => e36.id, :candidate => 'Coalition', :polls => 44.69)
 
-p73 = Party.create(:name => 'ALP', :electorate_id => e37.id, :candidate => 'Labor', :polls => 43.59)
-p74 = Party.create(:name => 'COAL', :electorate_id => e37.id, :candidate => e37.sitting_mp, :polls => 56.41)
+# p73 = Party.create(:name => 'ALP', :electorate_id => e37.id, :candidate => 'Labor', :polls => 43.59)
+# p74 = Party.create(:name => 'COAL', :electorate_id => e37.id, :candidate => e37.sitting_mp, :polls => 56.41)
 
 puts "Party count: #{Party.count}"
