@@ -25,7 +25,7 @@ window.onload = function () {
   var chart = new CanvasJS.Chart("test", {
     theme: "theme1",
     title:{
-      text: "Latest Odds",
+      text: "Odds: Coalition WIN by 50 Seats",
       fontFamily: "Armata",      
       fontColor: "#730D45"                
     },
